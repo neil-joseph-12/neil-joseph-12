@@ -1,0 +1,168 @@
+.name{
+    float : left;
+    padding : 15px;
+    font-family: "Luckiest Guy",cursive;
+    font-size : 30px;
+    color : black;
+    font-weight:550;
+padding-left : 30px;
+transform : 0.9s;
+}
+
+.name:hover{
+    transform : scale(1.2);
+}
+
+ul{
+    list-style-type : none;
+    background-color: white;
+    overflow:hidden;
+}
+
+
+li{
+    float : right;
+    padding-right : 25px;
+    margin-top : 5px
+}
+
+
+
+li a {
+    display: block;
+color: rgb(64, 5, 5);
+text-align: center;
+text-decoration: none;
+font-family: "acme";
+}
+
+
+li a:hover{
+    background-color: black;
+    color : white;
+    text-decoration: underline;
+    padding : 10px;
+}
+.icon{
+    border : none;
+    padding : 7px;
+       text-align : center;
+       display : inline-block;
+       cursor : pointer;
+       border-radius : 50%;
+}
+
+.youtube-icon{
+background-color: #fd0a0a;
+color: white;
+margin:5px;
+}
+
+
+.twitter-icon{
+background-color: #619bff;
+color: white;
+margin:5px;
+}
+
+
+
+.insta-icon{
+background-color: #b8099291;
+color: white;
+margin:5px;
+}
+
+
+.facebook-icon{
+    background-color: #0A65FD;
+color: white;
+margin:5px;
+}
+
+
+.insta-icon:hover{
+    background-color: white;
+    color:#b8099291;
+    border: 2px solid #b8099291;
+    margin:5px;
+}
+
+.youtube-icon:hover{
+    background-color: white;
+    color:#fd0a0a;
+    border: 2px solid #fd0a0a;
+    margin:5px;
+}
+
+.facebook-icon:hover{
+    background-color: white;
+    color:#0A65FD;
+    border: 2px solid #0A65FD;
+    margin:5px;
+}
+
+.twitter-icon:hover{
+    background-color: white;
+    color:#619bff;
+    border: 2px solid #619bff;
+    margin:5px;
+}
+
+.main{
+    max-width: 100%;
+    height : 80vh;
+    background: url("bg.jpeg");
+    background-repeat : no-repeat;
+background-size: cover;
+background-position: center;
+}
+
+body{
+    margin:0px;
+}
+
+.steve{
+    float : right;
+    margin-right: 10%;
+    margin-top: 10%;
+    padding-top: 50px;
+    padding-right: 50px;
+}
+
+
+.steve img{
+    width : 500px;
+    height: 350px;
+}
+
+.logo{
+float: left;
+margin-left: 10%;
+margin-top: 5%;
+padding-top: 50px;
+padding-right: 100px;
+
+}
+
+.logo img {
+width: 500px;
+height: 250px;
+}
+
+.download {
+background-color:rgb(255, 238, 0);
+border: none;
+color: rgb(36, 31, 31);
+padding: 20px 20px;
+text-align: center;
+text-decoration: underline;
+margin: 3px;
+cursor: pointer;
+border-radius: 12px;
+font-size: 25px;
+}
+
+.download:hover{
+    background-color:yellowgreen;
+}
